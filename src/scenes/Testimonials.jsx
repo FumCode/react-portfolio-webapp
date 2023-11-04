@@ -1,4 +1,6 @@
-import React from 'react'
+import LineGradient from "../components/LineGradient.jsx";
+import { motion } from "framer-motion";
+
 
 const Testimonials = () => {
     return (

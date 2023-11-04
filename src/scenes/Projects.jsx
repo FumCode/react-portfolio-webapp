@@ -25,8 +25,9 @@ const Project = ({ title }) => {
             <div className={overlayStyles}>
                 <p className="text-2xl font-playfair">{title}</p>
                 <p className="mt-7">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-                    porttitor accumsan tincidunt.
+                    There are many variations of passages of
+                    Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.
                 </p>
             </div>
             <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
@@ -58,9 +59,11 @@ const Projects = () => {
                     </div>
                 </div>
                 <p className="mt-10 mb-10">
-                    Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-                    fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-                    purus nec eget eleifend ut elit.
+                    If you are going to use a passage of Lorem Ipsum, you
+                    need to be sure there isn't anything embarrassing hidden
+                    in the middle of text. All the Lorem Ipsum generators on
+                    the Internet tend to repeat predefined chunks as necessary,
+                    making this the first true generator on the Internet.
                 </p>
             </motion.div>
 
