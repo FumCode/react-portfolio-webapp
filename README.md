@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 
 yarn add framer-motion
+yarn add react-hook-form
