@@ -14,4 +14,4 @@ yarn add framer-motion
 yarn add react-hook-form
 ```
 
-[YuoTube](https://www.youtube.com/watch?v=JSJ8ftr92Vw&list=PPSV)
+[YouTube](https://www.youtube.com/watch?v=JSJ8ftr92Vw&list=PPSV)
