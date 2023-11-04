@@ -62,33 +62,33 @@ function App() {
             </div>
             <LineGradient />
             <div className="w-5/6 mx-auto">
-            {/*    <motion.div*/}
-            {/*        margin="0 0 -200px 0"*/}
-            {/*        amount="all"*/}
-            {/*        onViewportEnter={() => setSelectedPage("projects")}*/}
-            {/*    >*/}
+                <motion.div
+                    margin="0 0 -200px 0"
+                    amount="all"
+                    onViewportEnter={() => setSelectedPage("projects")}
+                >
                     <Projects />
-            {/*    </motion.div>*/}
+                </motion.div>
             </div>
             <LineGradient />
             <div className="w-5/6 mx-auto md:h-full">
-            {/*    <motion.div*/}
-            {/*        margin="0 0 -200px 0"*/}
-            {/*        amount="all"*/}
-            {/*        onViewportEnter={() => setSelectedPage("testimonials")}*/}
-            {/*    >*/}
+                <motion.div
+                    margin="0 0 -200px 0"
+                    amount="all"
+                    onViewportEnter={() => setSelectedPage("testimonials")}
+                >
                     <Testimonials />
-            {/*    </motion.div>*/}
+                </motion.div>
             </div>
             <LineGradient />
             <div className="w-5/6 mx-auto md:h-full">
-            {/*    <motion.div*/}
-            {/*        margin="0 0 -200px 0"*/}
-            {/*        amount="all"*/}
-            {/*        onViewportEnter={() => setSelectedPage("contact")}*/}
-            {/*    >*/}
+                <motion.div
+                    margin="0 0 -200px 0"
+                    amount="all"
+                    onViewportEnter={() => setSelectedPage("contact")}
+                >
                     <Contact />
-            {/*    </motion.div>*/}
+                </motion.div>
             </div>
             <Footer />
         </div>
