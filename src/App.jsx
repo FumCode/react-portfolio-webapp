@@ -8,7 +8,7 @@ import Projects from "./scenes/Projects";
 // import Footer from "./scenes/Footer";
 import useMediaQuery from "./hooks/useMediaQuery";
 import { useEffect, useState } from "react";
-// import Testimonials from "./scenes/Testimonials";
+import Testimonials from "./scenes/Testimonials";
 import { motion } from "framer-motion";
 
 function App() {
@@ -70,16 +70,16 @@ function App() {
                     <Projects />
             {/*    </motion.div>*/}
             </div>
-            {/*<LineGradient />*/}
-            {/*<div className="w-5/6 mx-auto md:h-full">*/}
+            <LineGradient />
+            <div className="w-5/6 mx-auto md:h-full">
             {/*    <motion.div*/}
             {/*        margin="0 0 -200px 0"*/}
             {/*        amount="all"*/}
             {/*        onViewportEnter={() => setSelectedPage("testimonials")}*/}
             {/*    >*/}
-            {/*        <Testimonials />*/}
+                    <Testimonials />
             {/*    </motion.div>*/}
-            {/*</div>*/}
+            </div>
             {/*<LineGradient />*/}
             {/*<div className="w-5/6 mx-auto md:h-full">*/}
             {/*    <motion.div*/}
